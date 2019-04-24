@@ -22,7 +22,7 @@ function destructivelyAddElementToEndOfArray (chocolateBars, foo){
 function accessElementInArray(chocolateBars){
   return chocolateBars[2]
 }
-const array = [1, 2 ,3];
+var array = [1, 2 ,3];
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  return array.shift()
+  return array.shift(1)
 }
