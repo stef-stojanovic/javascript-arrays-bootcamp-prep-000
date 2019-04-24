@@ -15,5 +15,6 @@ function addElementToEndOfArray (chocolateBars, foo){
 }
 
 function destructivelyAddElementToEndOfArray (chocolateBars, foo){
-  chocolateBars.slice()
+  chocolateBars.push(foo)
+  return chocolateBars
 }
